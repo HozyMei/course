@@ -1,0 +1,28 @@
+[
+    {
+      "area": "Novosibirsk",
+      "adress": "123 Main St",
+      "floor": 5,
+      "roomsNumber": 1,
+      "phoneNumber": "123-456-7890",
+      "room": [1]
+    },
+    {
+      "area": "Omsk",
+      "adress": "456 Elm St",
+      "floor": 3,
+      "roomsNumber": 5,
+      "phoneNumber": "987-654-3210",
+      "room": [2, 3, 4, 5, 6]
+    },
+    {
+      "area": "Tomsk",
+      "adress": "789 Oak St",
+      "floor": 2,
+      "roomsNumber": 4,
+      "phoneNumber": "555-123-4567",
+      "room": [7, 8, 9, 10]
+      
+    }
+  ]
+  

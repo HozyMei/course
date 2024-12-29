@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "roomNumber": 101,
+    "square": 200.0,
+    "floorNumber": 5,
+    "typeOfFinish": "Renovated",
+    "phone": true
+  },
+  {
+    "id": 2,
+    "roomNumber": 202,
+    "square": 250.0,
+    "floorNumber": 3,
+    "typeOfFinish": "Standard",
+    "phone": false
+  },
+  {
+    "id": 3,
+    "roomNumber": 303,
+    "square": 300.0,
+    "floorNumber": 2,
+    "typeOfFinish": "Luxury",
+    "phone": true
+  },
+  {
+    "id": 4,
+    "roomNumber": 404,
+    "square": 350.0,
+    "floorNumber": 1,
+    "typeOfFinish": "Standard",
+    "phone": false
+  },
+  {
+    "id": 5,
+    "roomNumber": 505,
+    "square": 400.0,
+    "floorNumber": 1,
+    "typeOfFinish": "Luxury",
+    "phone": true
+  },
+  {
+    "id": 6,
+    "roomNumber": 606,
+    "square": 450.0,
+    "floorNumber": 1,
+    "typeOfFinish": "Renovated",
+    "phone": true
+  },
+  {
+    "id": 7,
+    "roomNumber": 707,
+    "square": 500.0,
+    "floorNumber": 2,
+    "typeOfFinish": "Standard",
+    "phone": false
+  },
+  {
+    "id": 8,
+    "roomNumber": 808,
+    "square": 550.0,
+    "floorNumber": 2,
+    "typeOfFinish": "Luxury",
+    "phone": true
+  },
+  {
+    "id": 9,
+    "roomNumber": 909,
+    "square": 600.0,
+    "floorNumber": 2,
+    "typeOfFinish": "Standard",
+    "phone": false
+  },
+  {
+    "id": 10,
+    "roomNumber": 1010,
+    "square": 650.0,
+    "floorNumber": 3,
+    "typeOfFinish": "Luxury",
+    "phone": true
+  }
+]
