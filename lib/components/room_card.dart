@@ -79,6 +79,7 @@ class RoomCard extends StatelessWidget {
                               typeOfFinish: room.typeOfFinish,
                               phone: room.phone,
                               customerNumber: phoneNumber,
+                              checked: false
                             );
 
                             // Сохраняем заявку

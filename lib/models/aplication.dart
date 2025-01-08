@@ -12,6 +12,7 @@ class Application {
   final String typeOfFinish;
   final bool phone;
   final String customerNumber;
+  final bool checked;
 
   Application({
     required this.area,
@@ -26,7 +27,8 @@ class Application {
     required this.floorNumber, 
     required this.typeOfFinish, 
     required this.phone,
-    required this.customerNumber
+    required this.customerNumber,
+    required this.checked
     });
    // Метод для сериализации в JSON
   Map<String, dynamic> toJson() {
@@ -44,6 +46,7 @@ class Application {
       'typeOfFinish': typeOfFinish,
       'phone': phone,
       'customerNumber': customerNumber,
+      'checked': checked
     };
   }
 
@@ -63,6 +66,25 @@ class Application {
       typeOfFinish: json['typeOfFinish'],
       phone: json['phone'],
       customerNumber: json['customerNumber'],
+      checked: json['checked']
+    );
+  }
+  Application copyWith({bool? checked}) {
+    return Application(
+      area: area,
+      address: address,
+      floor: floor,
+      roomsNumber: roomsNumber,
+      phoneNumber: phoneNumber,
+      roomIds: roomIds,
+      id: id,
+      roomNumber: roomNumber,
+      square: square,
+      floorNumber: floorNumber,
+      typeOfFinish: typeOfFinish,
+      phone: phone,
+      customerNumber: customerNumber,
+      checked: checked ?? this.checked,
     );
   }
 } 

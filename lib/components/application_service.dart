@@ -25,4 +25,5 @@ class ApplicationService {
     String jsonString = jsonEncode(applications.map((app) => app.toJson()).toList());
     await file.writeAsString(jsonString);
   }
+  
 }
